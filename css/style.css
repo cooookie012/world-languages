@@ -1,1 +1,36 @@
 @charset "utf-8";
+
+:root {
+  --text-color: #000000;
+  --background-color: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #ffffff;
+    --background-color: #000000;
+  }
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color)
+}
+
+header {
+  background-color: var(--text-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.article-zh {
+  font-family: 'Noto Sans SC', sans-serif;
+}
