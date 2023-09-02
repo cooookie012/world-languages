@@ -18,19 +18,28 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background-color);
-  color: var(--text-color);
+  color: var(--text-color)
 }
 
 header {
   background-color: var(--text-color);
-  color: var(--text-color);
+  color: var(--background-color);
   text-align: center;
+  height: 128px;
+  margin: 10px;
+}
+header strong {
+  color: #c60000;
 }
 
 h1 {
   text-align: center;
+  margin: 10px;
 }
 
+article {
+  margin: 10px;
+}
 .article-zh {
   font-family: 'Noto Sans SC', sans-serif;
 }
