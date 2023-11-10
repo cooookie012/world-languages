@@ -40,6 +40,10 @@ h1 {
 article {
   margin: 10px;
 }
-.article-zh {
+.article-latn,
+.article-cyrl {
+  font-family: 'Roboto', sans-serif;
+}
+.article-hans {
   font-family: 'Noto Sans SC', sans-serif;
 }
