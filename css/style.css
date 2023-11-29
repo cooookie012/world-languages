@@ -42,44 +42,43 @@ h1 {
 main {
   margin: 30px;
 }
+main article {
+  margin: 50px;
+  unicode-bidi: bidi-override;
+}
 .article-latn,
 .article-cyrl {
   font-family: 'Roboto', 'Inter', sans-serif;
   direction: ltr;
-  unicode-bidi: bidi-override;
 }
 .article-arab {
-  font-family: 'Noto Sans Arabic', serif;
+  font-family: 'Noto Naskh Arabic', serif;
   direction: rtl;
-  unicode-bidi: bidi-override;
+}
+.article-arab[font-style="nastaliq"] {
+  font-family: 'Noto Nastaliq Urdu', serif;
 }
 .article-armn {
   font-family: 'Noto Sans Armenian', sans-serif;
   direction: ltr;
-  unicode-bidi: bidi-override;
 }
 .article-avst {
   font-family: 'Noto Sans Avestan', sans-serif;
   direction: rtl;
-  unicode-bidi: bidi-override;
 }
 .article-deva {
   font-family: 'Noto Sans Devanagari', sans-serif;
   direction: ltr;
-  unicode-bidi: bidi-override;
 }
 .article-ethi {
   font-family: 'Noto Sans Ethiopic', sans-serif;
   direction: ltr;
-  unicode-bidi: bidi-override;
 }
 .article-hans {
   font-family: 'Noto Sans SC', sans-serif;
   direction: ltr;
-  unicode-bidi: bidi-override;
 }
 .article-syrc {
   font-family: 'Noto Sans Syriac', sans-serif;
   direction: rtl;
-  unicode-bidi: bidi-override;
 }
